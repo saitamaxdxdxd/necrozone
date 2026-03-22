@@ -1,8 +1,8 @@
 using System;
 using UnityEngine;
-using Retropolis.Core;
+using Necrozone.Core;
 
-namespace Retropolis.Managers
+namespace Necrozone.Managers
 {
     public enum GameState { Playing, Paused, LevelComplete, GameOver }
 

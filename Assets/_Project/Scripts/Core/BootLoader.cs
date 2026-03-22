@@ -1,8 +1,8 @@
 using System.Collections;
 using UnityEngine;
-using Retropolis.Managers;
+using Necrozone.Managers;
 
-namespace Retropolis.Core
+namespace Necrozone.Core
 {
     /// <summary>
     /// Secuencia Boot: Panel empresa → Panel juego → MainMenu.

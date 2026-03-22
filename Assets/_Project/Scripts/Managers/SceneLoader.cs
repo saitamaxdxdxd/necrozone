@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Retropolis.Managers
+namespace Necrozone.Managers
 {
     /// <summary>
     /// Servicio de carga de escenas. Persiste durante toda la sesión.

@@ -1,8 +1,8 @@
 using System;
 using UnityEngine;
-using Retropolis.Data;
+using Necrozone.Data;
 
-namespace Retropolis.Managers
+namespace Necrozone.Managers
 {
     public enum Language { English, Spanish }
 

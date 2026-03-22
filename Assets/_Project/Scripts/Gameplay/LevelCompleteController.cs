@@ -1,8 +1,8 @@
 using UnityEngine;
-using Retropolis.Core;
-using Retropolis.Managers;
+using Necrozone.Core;
+using Necrozone.Managers;
 
-namespace Retropolis.Gameplay
+namespace Necrozone.Gameplay
 {
     /// <summary>
     /// Panel de nivel completado. Se muestra automáticamente cuando GameManager → LevelComplete.

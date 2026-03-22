@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Retropolis.Managers;
+using Necrozone.Managers;
 
-namespace Retropolis.Gameplay
+namespace Necrozone.Gameplay
 {
     /// <summary>
     /// Conecta los botones de pausa con GameManager.

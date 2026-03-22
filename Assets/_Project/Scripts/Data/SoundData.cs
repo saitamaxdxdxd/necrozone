@@ -1,13 +1,13 @@
 using UnityEngine;
 
-namespace Retropolis.Data
+namespace Necrozone.Data
 {
     /// <summary>
     /// ScriptableObject que representa un sonido individual.
-    /// Crear con clic derecho → Retropolis → Sound Data.
+    /// Crear con clic derecho → Necrozone → Sound Data.
     /// Guardar en Assets/_Project/ScriptableObjects/Audio/
     /// </summary>
-    [CreateAssetMenu(fileName = "SoundData", menuName = "Retropolis/Sound Data")]
+    [CreateAssetMenu(fileName = "SoundData", menuName = "Necrozone/Sound Data")]
     public class SoundData : ScriptableObject
     {
         public AudioClip clip;

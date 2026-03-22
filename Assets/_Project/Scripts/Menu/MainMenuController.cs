@@ -1,8 +1,8 @@
 using UnityEngine;
-using Retropolis.Core;
-using Retropolis.Managers;
+using Necrozone.Core;
+using Necrozone.Managers;
 
-namespace Retropolis.Menu
+namespace Necrozone.Menu
 {
     /// <summary>
     /// Controla la pantalla principal del menú.

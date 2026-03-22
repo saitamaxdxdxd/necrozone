@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Retropolis.Data
+namespace Necrozone.Data
 {
     [Serializable]
     public class LocalizationEntry
@@ -14,12 +14,12 @@ namespace Retropolis.Data
 
     /// <summary>
     /// ScriptableObject con todas las cadenas de texto del juego.
-    /// Crear con clic derecho → Retropolis → Localization Data.
+    /// Crear con clic derecho → Necrozone → Localization Data.
     /// Guardar en ScriptableObjects/Settings/
     ///
     /// Claves sugeridas: "btn_play", "btn_quit", "lbl_select_level", etc.
     /// </summary>
-    [CreateAssetMenu(fileName = "LocalizationData", menuName = "Retropolis/Localization Data")]
+    [CreateAssetMenu(fileName = "LocalizationData", menuName = "Necrozone/Localization Data")]
     public class LocalizationData : ScriptableObject
     {
         public List<LocalizationEntry> entries = new();

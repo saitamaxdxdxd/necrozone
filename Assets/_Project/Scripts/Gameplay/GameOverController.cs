@@ -1,7 +1,7 @@
 using UnityEngine;
-using Retropolis.Managers;
+using Necrozone.Managers;
 
-namespace Retropolis.Gameplay
+namespace Necrozone.Gameplay
 {
     /// <summary>
     /// Panel de Game Over. Se muestra automáticamente cuando GameManager → GameOver.

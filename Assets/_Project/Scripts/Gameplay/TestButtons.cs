@@ -1,7 +1,7 @@
 using UnityEngine;
-using Retropolis.Managers;
+using Necrozone.Managers;
 
-namespace Retropolis.Gameplay
+namespace Necrozone.Gameplay
 {
     // TEMPORAL — borrar antes de release
     public class TestButtons : MonoBehaviour

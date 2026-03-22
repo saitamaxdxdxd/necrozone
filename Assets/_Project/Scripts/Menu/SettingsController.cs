@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
-using Retropolis.Managers;
+using Necrozone.Managers;
 
-namespace Retropolis.Menu
+namespace Necrozone.Menu
 {
     /// <summary>
     /// Panel de ajustes: volumen de música, volumen de SFX y selector de idioma.

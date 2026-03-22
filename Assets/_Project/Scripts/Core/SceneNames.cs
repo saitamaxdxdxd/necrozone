@@ -1,4 +1,4 @@
-namespace Retropolis.Core
+namespace Necrozone.Core
 {
     public static class SceneNames
     {

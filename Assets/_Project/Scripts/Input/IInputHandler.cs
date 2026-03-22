@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Retropolis.Input
+namespace Necrozone.Input
 {
     public interface IInputHandler
     {

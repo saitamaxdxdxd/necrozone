@@ -1,8 +1,8 @@
 using System.IO;
 using UnityEngine;
-using Retropolis.Data;
+using Necrozone.Data;
 
-namespace Retropolis.Managers
+namespace Necrozone.Managers
 {
     /// <summary>
     /// Gestiona todos los datos persistentes del juego en un único archivo JSON.
