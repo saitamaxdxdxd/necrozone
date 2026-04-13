@@ -45,7 +45,8 @@ namespace Necrozone.Player
                             | RigidbodyConstraints.FreezeRotationX
                             | RigidbodyConstraints.FreezeRotationY
                             | RigidbodyConstraints.FreezeRotationZ;
-            _rb.useGravity  = false;
+            _rb.useGravity       = false;
+            _rb.interpolation    = RigidbodyInterpolation.Interpolate;
         }
 
         private void FixedUpdate()
@@ -74,6 +75,13 @@ namespace Necrozone.Player
             else
                 transform.rotation = Quaternion.RotateTowards(
                     transform.rotation, target, _rotationSpeed * Time.fixedDeltaTime);
+        }
+
+        /// Llamar desde InputBootstrap para inyectar el handler correcto en runtime.
+        public void SetInputSource(MonoBehaviour source)
+        {
+            _inputSource = source;
+            _input = source as IPlayerInput;
         }
     }
 }

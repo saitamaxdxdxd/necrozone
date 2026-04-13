@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce97db13abe794231ad92767ece83da5, type: 3}
   m_Name: WaveData
   m_EditorClassIdentifier: Assembly-CSharp::Necrozone.Data.WaveData
-  entries: []
+  entries:
+  - zombieData: {fileID: 11400000, guid: 49e4961b01da4480196cd995ff7fe7f1, type: 2}
+    prefab: {fileID: 4063315403910028030, guid: ec9394ffa4dd444ed8ac0dc3387866fc, type: 3}
+    count: 0
   spawnInterval: 0.3

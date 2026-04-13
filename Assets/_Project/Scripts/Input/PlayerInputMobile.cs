@@ -23,8 +23,11 @@ namespace Necrozone.Input
         [SerializeField] private float _fireThreshold = 0.2f;
 
         public Vector2 MoveDirection => _moveJoystick != null ? _moveJoystick.Direction : Vector2.zero;
-        public Vector2 AimDirection  => _aimJoystick  != null ? _aimJoystick.Direction  : Vector2.zero;
-        public bool    FireHeld      => _aimJoystick  != null && _aimJoystick.Direction.magnitude > _fireThreshold;
+        // Sin joystick derecho: el player rota hacia donde se mueve (un solo joystick)
+        public Vector2 AimDirection  => _aimJoystick != null ? _aimJoystick.Direction : MoveDirection;
+        public bool    FireHeld      => _aimJoystick != null
+                                        ? _aimJoystick.Direction.magnitude > _fireThreshold
+                                        : MoveDirection.magnitude > _fireThreshold;
         public bool    DashPressed   => false; // Fase futura: botón dedicado en pantalla
     }
 }

@@ -16,7 +16,7 @@ namespace Necrozone.Core
     {
         [SerializeField] private Transform _target;
         [SerializeField] private float     _smoothSpeed = 6f;
-        [SerializeField] private Vector3   _offset      = new Vector3(0f, 14f, -8f);
+        [SerializeField] private Vector3   _offset      = new Vector3(0f, 8f, -8f);
 
         private void LateUpdate()
         {
